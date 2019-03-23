@@ -1,0 +1,134 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.brand-logo img {
+	padding-top: 5px;
+    height: 60px;
+	width: 110px;
+	border-radius: 50%;
+	/*border: 1px solid #ddd;*/
+}
+
+.bxslider  img {
+    height: 500px;
+	width: 100%;
+	/*border: 1px solid #ddd;*/
+} 
+
+.space {
+	margin-bottom: 20px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.testsearch {
+top:auto;right:auto;bottom:20px;left:20px;
+}
+footer.page-footer {
+  margin: 0;
+}
+
+#back-to-top {top:auto;right:auto;bottom:20px;left:20px;}
+#back-to-top {position:fixed;z-index:997;overflow:visible;}
+#cart-total,#compare-total {position:absolute;top:0;right:0;width:20px;height:20px;line-height:20px;font-size:.7rem;}
+.flow-text{font-size:1.44rem}
+.text-bold {font-weight:bold !important;color: black;}
+
+/* #cart{position:fixed;z-index:997;overflow:visible;right:20px;top:20px;left:auto;} */
+#cart{z-index:997;overflow:visible;right:auto;top:10px;left:180px;}
+.card .card-title.activator{cursor:pointer}
+
+.contact-info {margin:0;}.contact-info li {float:left;margin-left:10px;}.contact-info li i {margin-right:5px;}
+#dropdown-nav-top {overflow-y:visible !important;}
+
+#main-dd-nav {padding-left:40px;}#main-dd-nav:before {font-family:'Material Icons';content:'\E5D2';position:absolute;top:0;left:20px;height:64px;line-height:64px;display:block;font-size:1.5rem;}
+
+.card-price {font-weight:bold;font-size:1.3em;line-height:1.4em}
+.old-price {font-size:1.3em;text-decoration:line-through;}
+.badge {position:absolute;right:0;}
+
+
+
+/*.add-cart {position:absolute;top:-28px;right:28px;} */
+
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+ .regularsilck {
+        margin: 50px auto;
+		background-color: #b3e5fc;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+
+
+    /*.slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }*/
+    
+    /*.slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }*/

@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <title>Parallax Template - Materialize</title>
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+
+
+   </head>
+   <body>
+      <nav class="blue lighten-2" role="navigation">
+         <div class="nav-wrapper container">
+            
+			<!-- <a id="logo-container" href="#" class="brand-logo">Creative</a> -->
+			<a href="index.html" class="brand-logo left-align"><img class="responsive-img hoverable imgsize" id="logo" src="logo.png"/></a>
+            <ul class="right hide-on-med-and-down">
+               <li class="active"><a href="index.html">Home</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="#">Navbar Link</a></li>
+               <li><a href="mail.html" class="effect-3">Mail Us</a></li>
+               <li>
+                  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Log in</a>
+               </li>
+               <li>
+                  <a class="waves-effect waves-light btn modal-trigger" href="#myModal2">Create account</a>
+               </li>
+			   <li>
+			    <button type="button" id="cart" data-target="modal-cart" class="btn-floating btn-large waves-effect waves-light waves-circle modal-trigger z-depth-4 red"><i class="material-icons white-text">shopping_cart</i><small id="cart-total" class="btn-floating z-depth-1 light-blue darken-1 white-text">0</small></button>
+			   </li>
+            </ul>
+            <ul id="nav-mobile" class="sidenav">
+               <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+         </div>
+      </nav>
+	  
+	  
+	  <div class="row top-container blue-grey darken-3">
+            <div class="container">
+               <div class="valign-wrapper">
+                  <div class="col s12 m4"><a href="index9328.html?route=common/home"><img id="logo-img" class="responsive-img lazyload" src="" title="The sample site of the Materialize template" alt="The sample site of the Materialize template"></a></div>
+                  <div class="col m8 right-align hide-on-small-only blue-grey-text text-lighten-5">
+                     <a class="href-underline text-bold flow-text block blue-grey-text text-lighten-5" href="tel:+7 (800) 555 35 35">+7 (800) 555 35 35</a>
+                     <ul class="right contact-info">
+                        <li><a href="mailto:info@myefforts.ru" class="blue-grey-text text-lighten-5"><i class="material-icons left">email</i>info@myefforts.ru</a></li>
+                        <li><a href="#callback__modal" class="modal-trigger activator blue-grey-text text-lighten-5" rel="nofollow"><i class="material-icons left">phone_in_talk</i>Call back me</a></li>
+                        <li><i class="material-icons left">access_time</i>Weekdays from 09:00 to 18:00</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         
+	  
+	  <div id="fixed-nav-wrapper">
+            <nav id="header-navigation" class="hide-on-small-only pin-top blue-grey darken-2">
+               <div class="nav-wrapper container">
+                  <div class="row">
+                     <ul>
+                        <li class="col m3">
+                           <a id="main-dd-nav" class="dropdown-trigger text-uppercase white-text" rel="nofollow" data-target="dropdown-nav-top">Categories</a>
+                           <ul id="dropdown-nav-top" class="dropdown-content z-depth-5" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li><a class="waves-effect" href="sports-nutrition.html" itemprop="url"><span itemprop="name">Sports nutrition</span></a></li>
+                              <li class="divider"></li>
+                              <li><a class="waves-effect" href="clothing.html" itemprop="url"><span itemprop="name">Clothing</span></a></li>
+                              <li class="divider"></li>
+                              <li><a class="waves-effect" href="smartphones.html" itemprop="url"><span itemprop="name">Smartphones</span></a></li>
+                              <li class="divider"></li>
+                           </ul>
+                        </li>
+                        <li class="col m9">
+                           <nav class="search-wrapper z-depth-0 blue-grey darken-1">
+                              <div class="nav-wrapper">
+                                 <div id="search" class="input-field"><input id="input-search" class="search-input autocomplete" type="search" name="search" value="" autocomplete="off">
+								 <label class="label-icon waves-effect waves-circle" for="search"><i class="material-icons">search</i></label>
+								<i class="material-icons waves-effect waves-circle">close</i></div>
+                              </div>
+                           </nav>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+	  </div>
+	  
+	 <!-- <div class="bxslider">
+		<div>
+		<a href="#one!"><img src="images1.jpg"></a>
+		<p class="white-text">This is your first panel</p>
+		</div>
+		
+		<div>
+		<a href="#one!"><img src="images2.jpg"></a>
+		</div>
+		<div>
+		<a href="#one!"><img src="images3.jpg"></a>
+		</div>
+	  </div> -->
+
+<section>
+ <div class="slider space">
+    <ul class="slides">
+      <li>
+        <img class="enterleave" src="images1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			<a href="#" class="btn waves-effect" data-toggle="modal" data-target="#myModal">Read More</a>
+        </div>
+      </li>
+      <li>
+        <img class="enterleave" src="images2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img class="enterleave" src="images3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img class="enterleave" src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+	
+	<a class="btn-floating btn-small green" href="#"><i class="pauseplay large material-icons">pause</i></a>
+  </div>
+</section>
+
+
+<!-- <div class="test fixed-action-btn"><a id="menu" class="btn-floating btn-large red" href="#"><i class="large material-icons">chat</i></a></div>Gitter Chat Link -->
+<!-- <a class="waves-effect waves-light btn" onclick="$('#callback__attract').tapTarget('open')">Open tap target</a> -->
+
+<div class="fixed-action-btn"><button type="button" data-target="callback__modal" id="callback__btn" class="btn-floating btn-large green darken-1 z-depth-4 waves-effect waves-light pulse modal-trigger"><i id="callback__phone-icon" class="material-icons white-text">phone</i></button></div>
+      <div id="callback__attract" class="tap-target green lighten-1" data-target="callback__btn">
+         <div class="tap-target-content white-text">
+            <h5 class="text-bold">Need professional advice?</h5>
+            <p>Leave your phone number and our qualified specialist will call you back! The call is free.</p>
+         </div>
+      </div>
+	  
+ <!-- <div class="carousel carousel-slider space">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+  </div> -->
+	 
+   <!--<div class="carousel carousel-slider center space">
+    <div class="carousel-fixed-item center">
+	<a href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+    </div>
+    <div class="carousel-item red-text" href="#one!">
+      <h2>First Panel</h2>
+      <p class="white-text">This is your first panel</p>
+	  <a href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+	  <a href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+  </div> -->
+  
+      <!-- Modal1 -->
+      <div class="modal grey lighten-3" id="modal1">
+		 <!-- Modal content-->
+         <div class="modal-content">
+            <div class="row">
+			<button type="button" class="modal-close" data-dismiss="modal">&times;</button>
+               <div class="col s12 m6 offset-m3">
+                  <div class="card login-wrapper">
+                     <div class="card-content">
+                        <div id="CustomerLoginForm">
+                           <form method="post" action="../account/login.html" id="customer_login" accept-charset="UTF-8">
+                              <input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" />
+                              <h4 class="center">Login</h4>
+                              <div class="input-field">
+                                 <label for="CustomerEmail">
+                                 Email
+                                 </label>
+                                 <input type="email"
+                                    name="customer[email]"
+                                    id="CustomerEmail"
+                                    class=""
+                                    spellcheck="false"
+                                    autocomplete="off"
+                                    autocapitalize="off"
+                                    autofocus>
+                              </div>
+                              <div class="input-field">
+                                 <label for="CustomerPassword">
+                                 Password
+                                 </label>
+                                 <input type="password"
+                                    name="customer[password]"
+                                    id="CustomerPassword"
+                                    class="">
+                              </div>
+                              <input type="submit" class="btn-large z-depth-0" value="Sign In">
+                              <a href="#recover" id="RecoverPassword">Forgot your password?</a>
+                           </form>
+                        </div>
+                        <div id="RecoverPasswordForm" class="hide">
+                           <h4 class="center">Reset your password</h4>
+                           <p>We will send you an email to reset your password.</p>
+                           <form method="post" action="../index.html" accept-charset="UTF-8">
+                              <input type="hidden" name="form_type" value="recover_customer_password" /><input type="hidden" name="utf8" value="✓" />
+                              <div class="input-field">
+                                 <label for="RecoverEmail">
+                                 Email
+                                 </label>
+                                 <input type="email"
+                                    name="email"
+                                    id="RecoverEmail"
+                                    spellcheck="false"
+                                    autocomplete="off"
+                                    autocapitalize="off">
+                              </div>
+                              <input type="submit" class="btn-large z-depth-0" value="Submit">
+                              <a href="#" id="HideRecoverPasswordLink">
+                              Cancel
+                              </a>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="form-success hide" id="ResetSuccess">
+            We&#39;ve sent you an email with a link to update your password.
+         </div>
+      </div>
+      </div>
+	  
+	<div class="tap-target" data-target="menu">
+    <div class="tap-target-content">
+      <h5>Enquery</h5>
+	  <h5>For Any Enquiery Leave you comment with number here</h5>
+      <p>We will get bacck to you</p>
+    </div>
+  </div>
+	  
+      <!-- //Modal1 -->	
+      <!-- Modal2 -->
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+				  <button type="button" class="modal-close" data-dismiss="modal">&times;</button>
+                  <div class="signin-form profile">
+                     <h3 class="agileinfo_sign">Sign Up</h3>
+                     <div class="login-form">
+                        <form action="#" method="post">
+                           <input type="text" name="name" placeholder="Username" required="">
+                           <input type="email" name="email" placeholder="Email" required="">
+                           <input type="password" name="password" placeholder="Password" required="">
+                           <input type="password" name="password" placeholder="Confirm Password" required="">
+                           <input type="submit" class="btn-large z-depth-0" value="Sign Up">
+                        </form>
+                     </div>
+                     <p><a href="#"> By clicking register, I agree to your terms</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- //Modal2 -->	
+      <!-- Modal2 -->
+      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="signin-form profile">
+                     <div class="login-form">
+                        <form action="#" method="post">
+                           <input type="text" name="name" placeholder="Username" required="">
+                           <input type="email" name="email" placeholder="Email" required="">
+                           <input type="password" name="password" placeholder="Password" required="">
+                           <input type="text" name="subject" placeholder="Subject" required="">
+                           <textarea name="Comments" placeholder="Message" required=""></textarea>
+                           <input type="submit" value="SUBMIT">
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- //Modal2 -->	
+      <div id="index-banner" class="parallax-container">
+         <div class="section no-pad-bot">
+            <div class="container">
+               <br><br>
+               <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+               <div class="row center">
+                  <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+               </div>
+               <div class="row center">
+                  <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+               </div>
+               <br><br>
+            </div>
+         </div>
+         <div class="parallax"><img src="images1.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+      <div class="container">
+         <div class="section">
+            <!--   Icon Section   -->
+            <div class="row">
+               <div class="col s12 m4">
+                  <div class="icon-block">
+                     <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+                     <h5 class="center">Speeds up development</h5>
+                     <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                  </div>
+               </div>
+               <div class="col s12 m4">
+                  <div class="icon-block">
+                     <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+                     <h5 class="center">User Experience Focused</h5>
+                     <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                  </div>
+               </div>
+               <div class="col s12 m4">
+                  <div class="icon-block">
+                     <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+                     <h5 class="center">Easy to work with</h5>
+                     <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="parallax-container valign-wrapper">
+         <div class="section no-pad-bot">
+            <div class="container">
+               <div class="row center">
+                  <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+               </div>
+            </div>
+         </div>
+         <div class="parallax"><img src="images2.jpg" alt="Unsplashed background img 2"></div>
+      </div>
+	  
+    <div class="regularsilck slickslider">
+	<div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images1.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+<div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images2.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+  <div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images3.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+	<div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images1.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+  <div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images2.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+   <div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images3.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+<div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images1.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+<div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images2.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+   <div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images3.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+<div class="card sticky-action small hoverable">
+	<span class="white-text badge red lighten-1 percent">Discount 31%</span>
+	  <div>
+	  <img src="images1.jpg">
+    </div>
+  <div class="card-action">
+	<button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+ </div>
+	</div>
+    <div>
+      <img src="images2.jpg">
+    </div>
+    <div>
+      <img src="images3.jpg">
+    </div>
+   </div>
+<a class="pp2 btn-floating btn-small waves-effect waves-light cyan accent-3"><i class="material-icons">navigate_before</i></a>
+<a class="nn2 btn-floating btn-small waves-effect waves-light cyan accent-3"><i class="material-icons">navigate_next</i></a>
+	  
+      <div class="container">
+         <div class="section">
+            <div class="row">
+               <div class="col s12 center">
+                  <h3><i class="mdi-content-send brown-text"></i></h3>
+                  <h4>Contact Us</h4>
+                  <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="parallax-container valign-wrapper">
+         <div class="section no-pad-bot">
+            <div class="container">
+               <div class="row center">
+                  <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+               </div>
+            </div>
+         </div>
+         <div class="parallax"><img src="images3.jpg" alt="Unsplashed background img 3"></div>
+      </div>
+      <footer class="page-footer teal">
+         <div class="container">
+            <div class="row">
+               <div class="col l6 s12">
+                  <h5 class="white-text">Company Bio</h5>
+                  <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+               </div>
+               <div class="col l3 s12">
+                  <h5 class="white-text">Settings</h5>
+                  <ul>
+                     <li><a class="white-text" href="#!">Link 1</a></li>
+                     <li><a class="white-text" href="#!">Link 2</a></li>
+                     <li><a class="white-text" href="#!">Link 3</a></li>
+                     <li><a class="white-text" href="#!">Link 4</a></li>
+                  </ul>
+               </div>
+               <div class="col l3 s12">
+                  <h5 class="white-text">Connect</h5>
+                  <ul>
+                     <li><a class="white-text" href="#!">Link 1</a></li>
+                     <li><a class="white-text" href="#!">Link 2</a></li>
+                     <li><a class="white-text" href="#!">Link 3</a></li>
+                     <li><a class="white-text" href="#!">Link 4</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+	<!-- Modal for cart-->
+      <div id="modal-cart" class="modal bottom-sheet modal-fixed-footer">
+         <div id="modal-cart-content" class="modal-content">
+            <div id="modal-cart-list" class="container">
+               <h4 class="flow-text text-bold">Your shopping cart</h4>
+               <div class="card-panel">
+                  <p class="flow-text text-bold">Your shopping cart is empty!</p>
+                  <div class="row">
+                     <div class="col s4 m3 l2 center"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="catalog/view/theme/materialize/image/cart-empty.png" alt="" width="128" height="128"></div>
+                     <div class="col s8 m9 l10 grey lighten-3 z-depth-1 comment-body">
+                        <p>Let me help you spend some money :)</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal-footer grey lighten-3">
+            <div class="container"><a href="index630e.html?route=checkout/cart" class="modal-action btn-flat waves-effect waves-default href-underline" rel="nofollow">View Cart</a></div>
+         </div>
+      </div>
+      <div id="modal-language" class="modal">
+         <div class="modal-content">
+            <i class="material-icons modal-action modal-close waves-effect waves-circle close-icon">close</i>
+            <h4>Language</h4>
+            <form action="https://materialize.myefforts.ru/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
+               <ul>
+                  <li><label for="ru-ru"><input id="ru-ru" class="with-gap language-select" type="radio" name="ru-ru"><span>Russian</span></label></li>
+                  <li><label for="en-gb"><input id="en-gb" class="with-gap language-select" type="radio" name="en-gb" checked="checked"><span>English</span></label></li>
+               </ul>
+               <input type="hidden" name="code" value=""><input type="hidden" name="redirect" value="https://materialize.myefforts.ru/index.php?route=common/home">
+            </form>
+         </div>
+      </div>
+      <script>
+         document.addEventListener("DOMContentLoaded", function(event) {
+         	$('#form-language .language-select').on('click', function(e) {
+         		e.preventDefault();
+         		$('#form-language input[name=\'code\']').val($(this).attr('id'));
+         		$('#form-language').submit();
+         	});
+         });
+      </script>
+      <div id="modal-currency" class="modal">
+         <div class="modal-content">
+            <i class="material-icons modal-action modal-close waves-effect waves-circle close-icon">close</i>
+            <h4>Currency</h4>
+            <form action="https://materialize.myefforts.ru/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
+               <ul>
+                  <li><label for="EUR"><input id="EUR" class="with-gap currency-select" type="radio" name="EUR"><span>€ Euro</span></label></li>
+                  <li><label for="GBP"><input id="GBP" class="with-gap currency-select" type="radio" name="GBP"><span>£ Pound Sterling</span></label></li>
+                  <li><label for="USD"><input id="USD" class="with-gap currency-select" type="radio" name="USD" checked="checked"><span>$ US Dollar</span></label></li>
+               </ul>
+               <input type="hidden" name="code" value=""><input type="hidden" name="redirect" value="https://materialize.myefforts.ru/index.php?route=common/home">
+            </form>
+         </div>
+      </div>
+      <script>
+         document.addEventListener("DOMContentLoaded", function(event) {
+         	$('#form-currency .currency-select').on('click', function(e) {
+         		e.preventDefault();
+         		$('#form-currency input[name=\'code\']').val($(this).attr('name'));
+         		$('#form-currency').submit();
+         	});
+         });
+      </script>
+      <form id="callback__modal" class="modal">
+         <div class="modal-content">
+            <i class="material-icons modal-action modal-close waves-effect waves-circle close-icon">close</i>
+            <div class="row">
+               <h4>Call back me</h4>
+            </div>
+            <div class="row">
+               <div class="input-field col s12"><i class="material-icons prefix">account_circle</i><input id="callback-name" name="module_callback_name" type="text" class="validate"><label for="callback-name" class="text-bold">What is your name</label></div>
+               <div class="input-field col s12"><i class="material-icons prefix">phone</i><input id="callback-telephone" name="module_callback_telephone" type="tel" class="validate"><label for="callback-telephone" class="text-bold required">Your phone number</label></div>
+               <div class="input-field col s12"><i class="material-icons prefix">av_timer</i><input type="text" id="callback-calltime" class="timepicker" name="module_callback_calltime" value=""><label for="callback-calltime" class="text-bold">Convenient time for a call</label></div>
+            </div>
+            <div class="row">
+               <div class="col s12"><label for="agreement-check-callback"><input type="checkbox" name="module_callback_agree" value="1" id="agreement-check-callback" class="filled-in"><span>I have read and agree to the <a href="index7ee2.html?route=information/information/agree&amp;information_id=5" class="agree"><b>Terms &amp; Conditions</b></a></span></label></div>
+            </div>
+            <input type="hidden" name="order_page" value="https://materialize.myefforts.ru/">
+         </div>
+         <div class="modal-footer href-underline"><button type="button" id="callback__button" class="btn modal-action waves-effect waves-light red white-text" value="Request a call">Request a call</button></div>
+      </form>
+      <!-- <button type="button" data-target="callback__modal" id="callback__btn" class="btn-floating btn-large green darken-1 z-depth-4 waves-effect waves-light pulse modal-trigger"><i id="callback__phone-icon" class="material-icons white-text">phone</i></button> -->
+      <div id="callback__attract" class="tap-target green lighten-1" data-target="callback__btn">
+         <div class="tap-target-content white-text">
+            <h5 class="text-bold">Need professional advice?</h5>
+            <p>Leave your phone number and our qualified specialist will call you back! The call is free.</p>
+         </div>
+      </div>
+      <script>
+         document.addEventListener("DOMContentLoaded", function(event) {
+         	var callbackAttract = $('#callback__attract'),
+         		callbackPhoneIcon = $('#callback__phone-icon');
+         
+         	setInterval(function() {
+         		callbackPhoneIcon.toggleClass('callback-shake');
+         	}, 2500);
+         
+         	var idleTimer = null,
+         		idleState = false,
+         		idleWait = 30000;
+         
+         	callbackAttract.tapTarget();
+         
+         	$(document).bind('mousemove keydown scroll', function() {
+         		clearTimeout(idleTimer);
+         
+         		idleState = false;
+         		idleTimer = setTimeout(function() {
+         			callbackAttract.tapTarget('open');
+         			idleState = true;
+         		}, idleWait);
+         	});
+         
+         	$("body").trigger("mousemove");
+         });
+      </script><script>
+         document.addEventListener("DOMContentLoaded", function(event) {
+         			$('.timepicker').timepicker({
+         		defaultTime: 'now',
+         		autoclose: true,
+         		i18n: {
+         			clear: 'Clear',
+         			cancel: 'Close',
+         			done: 'Select',
+         			twelvehour: true
+         		}
+         	});
+         		$('#callback__button').on('click', function() {
+         		$.ajax({
+         			url: 'index.php?route=extension/module/callback/send',
+         			type: 'post',
+         			dataType: 'json',
+         			data: $("#callback__modal").serialize(),
+         			success: function(json) {
+         				if (json['error']) {
+         					M.toast({html: '<i class="material-icons left">warning</i>' + json['error'], classes: 'toast-warning'});
+         				}
+         				if (json['success']) {
+         					M.toast({html: '<i class="material-icons left">check</i>' + json['success'], classes: 'toast-success'});
+         					$('#callback-telephone').val('').removeClass('valid');
+         					$('#callback-telephone').parent().find('label').removeClass('active');
+         										$('#callback-name').val('').removeClass('valid');
+         					$('#callback-name').parent().find('label').removeClass('active');
+         																				$('#callback-calltime').val('');
+         					$('#callback-calltime').parent().find('label').removeClass('active');
+         															$('#agreement-check-callback').prop('checked', false);
+         										$('#callback__modal').modal('close');
+         				}
+         			}
+         		});
+         	});
+         });
+      </script><a id="compare-btn" href="index6431.html?route=product/compare" class="btn-floating btn-large waves-effect waves-light scale-transition pulse blue scale-out" title="Compare products" rel="nofollow"><i class="material-icons white-text">compare_arrows</i><small id="compare-total" class="btn-floating z-depth-1 pulse light-blue darken-2 white-text">0</small></a>
+      <script type="application/ld+json">
+         {
+         	"@context": "http://schema.org",
+         	"@type": "WebSite",
+         	"url": "https://materialize.myefforts.ru/",
+         	"potentialAction": {
+         		"@type": "SearchAction",
+         		"target": "https://materialize.myefforts.ru/index.php?route=product/search&search={query}",
+         		"query-input": "required name=query"
+         	}
+         }
+      </script>
+      <main>
+         <div class="container">
+            <div class="row">
+               <div class="col s12">
+                  <div class="section">
+                     <div id="slideshow0" class="slick-slider slick-slider-slideshow z-depth-1"><a href="https://www.opencart.com/index.php?route=marketplace/extension/info&amp;extension_id=30715"><img class="responsive-img" src="image/cache/catalog/slideshow/banner-3-1280x467.jpg" alt="OpenCart Materialize Template"></a><a href="index17a4.html?route=product/product&amp;path=59&amp;product_id=55"><img class="responsive-img" src="image/cache/catalog/slideshow/banner-1-1280x467.jpg" alt="Optimum Nutrition 100% Whey Gold"></a><a href="indexfe35.html?route=product/product&amp;path=59&amp;product_id=59"><img class="responsive-img" src="image/cache/catalog/slideshow/banner-2-1280x467.jpg" alt="Optimum Nutrition Casein"></a></div>
+                  </div>
+                  <script>
+                     document.addEventListener("DOMContentLoaded", function(event) {
+                     	$('.slick-slider').not('.slick-initialized').slick({
+                     		infinite: true,
+                     		autoplay: true,
+                     		autoplaySpeed: 5000,
+                     		slidesToShow: 1,
+                     		adaptiveHeight: true,
+                     		fade: true,
+                     		cssEase: 'linear',
+                     		dots: true,
+                     		arrows: true
+                     	});
+                     });
+                  </script>
+                  <section class="section href-underline">
+                     <h2>Specials</h2>
+                     <div class="row">
+                        <div class="col s12 m6 xl4">
+                           <div class="card sticky-action large hoverable">
+                              <span class="white-text badge red lighten-1 percent">Discount 31%</span>
+                              <div class="card-image"><i class="material-icons waves-effect waves-circle close-icon activator">more_vert</i><a href="iphone-7-plus-red-special-edition-256gb-en.html"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/goods/smartphones/iphone/iphone-7-plus/iphone-7-plus-red-1-250x250.jpg" alt="iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB" title="iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB"></a></div>
+                              <div class="card-content center-align"><span class="card-title"><a href="iphone-7-plus-red-special-edition-256gb-en.html" class="grey-text text-darken-4">iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB</a></span></div>
+                              <div class="card-action center-align grey lighten-5">
+                                 <button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+                                 <div class="rating">
+                                    <hr>
+                                    <span class="grey lighten-5"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star_border</i></span>
+                                 </div>
+                                 <a href="iphone-7-plus-red-special-edition-256gb-en.html" class="btn waves-effect waves-light red width-max">More detailed</a>
+                              </div>
+                              <div class="card-reveal">
+                                 <span class="card-title"><a href="iphone-7-plus-red-special-edition-256gb-en.html" class="grey-text text-darken-4">iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB</a><i class="material-icons waves-effect waves-circle close-icon">close</i></span>
+                                 <p>Представляем модель iPhone 7 Plus (MPR62RU/A), выполненную в красном цвете (Red) с объемом встроенной памяти 256GB. Долгожданная седьмая версия iPhone от Apple (Айфон 7 от Эппл) предлагает вам проработанный дизайн, увеличенную скорость и плавность работы, превосходное качество съемки, улучшенный звук и удобство пользования всеми функциями аппарата благодаря новой iOS 10.
+                                    Обновления iPhone 7 Plus
+                                    ..
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+						
+						<div class="col s12 m6 xl4">
+                           <div class="card sticky-action large hoverable">
+                              <span class="white-text badge red lighten-1 percent">Discount 31%</span>
+                              <div class="card-image"><i class="material-icons waves-effect waves-circle close-icon activator">more_vert</i><a href="iphone-7-plus-red-special-edition-256gb-en.html"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/goods/smartphones/iphone/iphone-7-plus/iphone-7-plus-red-1-250x250.jpg" alt="iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB" title="iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB"></a></div>
+                              <div class="card-content center-align"><span class="card-title"><a href="iphone-7-plus-red-special-edition-256gb-en.html" class="grey-text text-darken-4">iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB</a></span></div>
+                              <div class="card-action center-align grey lighten-5">
+                                 <button class="btn btn-floating btn-large waves-effect waves-light red add-cart" title="Add to Cart" onclick="cart.add('53');"><i class="material-icons">add_shopping_cart</i></button><span class="card-price old-price grey-text">$875.00</span><span class="card-price red-text text-darken-2">$600.00</span>
+                                 <div class="rating">
+                                    <hr>
+                                    <span class="grey lighten-5"><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star</i><i class="material-icons">star_border</i></span>
+                                 </div>
+                                 <a href="iphone-7-plus-red-special-edition-256gb-en.html" class="btn waves-effect waves-light red width-max">More detailed</a>
+                              </div>
+                              <div class="card-reveal">
+                                 <span class="card-title"><a href="iphone-7-plus-red-special-edition-256gb-en.html" class="grey-text text-darken-4">iPhone 7 Plus (PRODUCT)RED™ Special Edition 256GB</a><i class="material-icons waves-effect waves-circle close-icon">close</i></span>
+                                 <p>Представляем модель iPhone 7 Plus (MPR62RU/A), выполненную в красном цвете (Red) с объемом встроенной памяти 256GB. Долгожданная седьмая версия iPhone от Apple (Айфон 7 от Эппл) предлагает вам проработанный дизайн, увеличенную скорость и плавность работы, превосходное качество съемки, улучшенный звук и удобство пользования всеми функциями аппарата благодаря новой iOS 10.
+                                    Обновления iPhone 7 Plus
+                                    ..
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+						
+                     </div>
+                  </section>
+                  <section class="section href-underline">
+                     <h2>Каталог товаров</h2>
+                     <div class="row">
+                        <div class="col s12 m12 l5">
+                           <div class="catalog-presentation center-align z-depth-1 hoverable" style="background-image:url(image/catalog/catalog-presentation/protein-banner.jpg);">
+                              <a href="protein/index.html">
+                                 <p class="red white-text z-depth-2">Протеин от 1000 рублей</p>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col s12 m7 l4">
+                           <div class="catalog-presentation center-align z-depth-1 hoverable" style="background-image:url(image/catalog/catalog-presentation/gainer-banner.jpg);">
+                              <a href="protein/casein/index.html">
+                                 <p class="blue white-text z-depth-2">Казеин от 1000 рублей</p>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col s12 m5 l3">
+                           <div class="catalog-presentation center-align z-depth-1 hoverable" style="background-image:url(image/catalog/catalog-presentation/shaker-banner.jpg);">
+                              <a href="accessories/shakers/index.html">
+                                 <p class="grey white-text z-depth-2">Шейкеры от 200 рублей</p>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col s12 m5 l3">
+                           <div class="catalog-presentation center-align z-depth-1 hoverable" style="background-image:url(image/catalog/catalog-presentation/creatine-banner.jpg);">
+                              <a href="creatine/index.html">
+                                 <p class="green white-text z-depth-2">Креатин от 500 рублей</p>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col s12 m7 l6">
+                           <div class="catalog-presentation center-align z-depth-1 hoverable" style="background-image:url(image/catalog/catalog-presentation/bcaa-banner.jpg);">
+                              <a href="bcaa/index.html">
+                                 <p class="blue-grey darken-4 white-text z-depth-2">BCAA от 800 рублей</p>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col s12 m12 l3">
+                           <div class="catalog-presentation center-align z-depth-1 hoverable" style="background-image:url(image/catalog/catalog-presentation/vitamins-banner.jpg);">
+                              <a href="vitamins/index.html">
+                                 <p class="deep-purple accent-4 white-text z-depth-2">Витамины от 700 рублей</p>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+                  <div class="card-panel">
+                     <section class="section">
+                        <div class="row">
+                           <div class="col s12 m4 center-align"><img src="image/catalog/logo.png" alt="" class="responsive-img"></div>
+                           <div class="col s12 m8">
+                              <h1 style="margin-top:0;padding-top:0;">Интернет магазин спортивного питания</h1>
+                              <div class="divider"></div>
+                              <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Журчит ipsum ручеек имеет ему буквенных обеспечивает возвращайся правилами страна составитель коварный злых, проектах то всеми за буквоград, рукопись, даль имени знаках рыбными ты пояс! Собрал одна своих над силуэт сих за свое семантика речью?</p>
+                              <h2>Заголовок H2</h2>
+                              <div class="divider"></div>
+                              <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Собрал строчка, скатился которой. Языком буквенных свое текста журчит дал не безорфографичный подпоясал образ продолжил, если текстов, ipsum моей от всех однажды, его курсивных большого своего своих имеет безопасную своих предупредила даже рот осталось! Маленькая встретил текстами раз выйти приставка моей! Заглавных что если мир раз за речью залетают родного инициал, жизни вопрос несколько, силуэт эта необходимыми она последний выйти жаренные, точках над оксмокс власти. Взгляд предложения грамматики, рекламных проектах ему несколько продолжил взобравшись приставка свой даль свое что пунктуация вопрос единственное то имеет коварный переулка от всех лучше решила?</p>
+                              <h3>Время работы</h3>
+                              <div class="divider"></div>
+                              <blockquote>
+                                 <table class="bordered centered responsive-table">
+                                    <thead>
+                                       <tr>
+                                          <th>&nbsp;</th>
+                                          <th>Понедельник</th>
+                                          <th>Вторник</th>
+                                          <th>Среда</th>
+                                          <th>Четверг</th>
+                                          <th>Пятница</th>
+                                          <th>Суббота</th>
+                                          <th>Воскресенье</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><b>с</b></td>
+                                          <td>09:00</td>
+                                          <td>09:00</td>
+                                          <td>09:00</td>
+                                          <td>09:00</td>
+                                          <td>09:00</td>
+                                          <td>10:00</td>
+                                          <td>Выходной</td>
+                                       </tr>
+                                       <tr>
+                                          <td><b>до</b></td>
+                                          <td>21:00</td>
+                                          <td>21:00</td>
+                                          <td>21:00</td>
+                                          <td>21:00</td>
+                                          <td>21:00</td>
+                                          <td>19:00</td>
+                                          <td>Выходной</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </blockquote>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="section">
+                        <h3>Как нас найти</h3>
+                        <div class="divider"></div>
+                        <blockquote>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Текста рукопись, ему от всех города грустный страну вопрос одна грамматики они инициал необходимыми взобравшись предупредила заглавных свое свой, рукописи которое!</blockquote>
+                     </section>
+                  </div>
+                  <div id="carousel0" class="slick-carousel card-panel">
+                     <div><a href="index568e.html?route=product/manufacturer/info&amp;manufacturer_id=14"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/manufacturer/apple/apple-logo-100x100.jpg" alt="Apple"></a></div>
+                     <div><a href="index141c.html?route=product/manufacturer/info&amp;manufacturer_id=15"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/manufacturer/nanox/nanox-nutriotion-logo-100x100.jpg" alt="Nanox"></a></div>
+                     <div><a href="index82cc.html?route=product/manufacturer/info&amp;manufacturer_id=12"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/manufacturer/new-balance/new-balance-logo-100x100.jpg" alt="New Balance"></a></div>
+                     <div><a href="indexa05a.html?route=product/manufacturer/info&amp;manufacturer_id=11"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/manufacturer/nike/nike-logo-100x100.jpg" alt="Nike"></a></div>
+                     <div><a href="index0b53.html?route=product/manufacturer/info&amp;manufacturer_id=16"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/manufacturer/optimum-nutrition/optimum-nutrition-logo-100x100.jpg" alt="Optimum Nutrition"></a></div>
+                     <div><a href="index1c6a.html?route=product/manufacturer/info&amp;manufacturer_id=13"><img class="responsive-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://materialize.myefforts.ru/image/cache/catalog/manufacturer/samsung/samsung-logo-100x100.jpg" alt="Samsung"></a></div>
+                  </div>
+                  <script>
+                     document.addEventListener("DOMContentLoaded", function(event) {
+                     	$('.slick-carousel').not('.slick-initialized').slick({
+                     		infinite: true,
+                     		slidesToShow: 6,
+                     		slidesToScroll: 3,
+                     		dots: true,
+                     		infinite: true,
+                     		speed: 300,
+                     		autoplay: true,
+                     		lazyLoad: 'ondemand',
+                     		responsive: [
+                     		{
+                     			breakpoint: 460,
+                     			settings: {
+                     				slidesToShow: 1,
+                     				slidesToScroll: 1
+                     			}
+                     		},
+                     		{
+                     			breakpoint: 600,
+                     			settings: {
+                     				slidesToShow: 2,
+                     				slidesToScroll: 2
+                     			}
+                     		},
+                     		{
+                     			breakpoint: 992,
+                     			settings: {
+                     				slidesToShow: 3,
+                     				slidesToScroll: 3
+                     			}
+                     		},
+                     		{
+                     			breakpoint: 1240,
+                     			settings: {
+                     				slidesToShow: 4,
+                     				slidesToScroll: 4
+                     			}
+                     		},
+                     		]
+                     	});
+                     });
+                  </script>
+               </div>
+            </div>
+         </div>
+      </main>
+		 
+		 <!-- Section: Follow -->
+  <section class="section section-follow teal darken-2 white-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>Follow Creative</h4>
+          <p>Follow us on social media for special offers</p>
+          <a href="htttps://facebook.com" target="_blank" class="white-text">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+          <a href="htttps://twitter.com" target="_blank" class="white-text">
+            <i class="fab fa-twitter fa-4x"></i>
+          </a>
+          <a href="htttps://linkedin.com" target="_blank" class="white-text">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
+          <a href="htttps://googleplus.com" target="_blank" class="white-text">
+            <i class="fab fa-google-plus fa-4x"></i>
+          </a>
+          <a href="htttps://pinterest.com" target="_blank" class="white-text">
+            <i class="fab fa-pinterest fa-4x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+		 
+         <div class="footer-copyright">
+            <div class="container">
+               Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+         </div>
+      </footer>
+	  <button type="button" id="back-to-top" class="btn-floating btn-large scale-transition z-depth-4 waves-effect waves-light red"><i class="material-icons white-text">keyboard_arrow_up</i></button>
+      <!--JavaScript at end of body for optimized loading-->
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="js/init.js"></script>
+	   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   </body>
+</html>
